@@ -2,13 +2,13 @@
 class Fvm < Formula
   desc "Flutter version management tool"
   homepage "https://github.com/leoafarias/fvm"
-  url "https://github.com/leoafarias/fvm/releases/download/v0.1.6/fvm_0.1.6_Darwin_x86_64.tar.gz"
-  version "0.1.6"
-  sha256 "abfab7bf8641653caab73552b0c1949a937ec815159eef116227ed87c15d7a22"
+  url "https://github.com/leoafarias/fvm/releases/download/v0.1.7/fvm_0.1.7_Darwin_x86_64.tar.gz"
+  version "0.1.7"
+  sha256 "7ea065f9d22138251e1e4db0a5ed4b6f73363d46293b785618d034fdc50cca71"
   
   depends_on "git"
 
   def install
-    bin.install "fvm"
+    bin.install '{{ .ProjectName }}'
   end
 end
