@@ -2,9 +2,9 @@
 class Fvm < Formula
   desc "Flutter version management tool"
   homepage "https://github.com/leoafarias/fvm"
-  url "https://github.com/leoafarias/fvm/releases/download/v0.1.13/fvm_0.1.13_Darwin_x86_64.tar.gz"
-  version "0.1.13"
-  sha256 "f4be7bbe340a5ccad15b4083ef19e9c000dcf029f9e5e7b52cbabd23b45961ac"
+  url "https://github.com/leoafarias/fvm/releases/download/v0.2.7/fvm_0.2.7_Darwin_x86_64.tar.gz"
+  version "0.2.7"
+  sha256 "87ca231afd30ff7242f561ecd7ac9729ffa599139d40fbc0ffcf7993bed15c2f"
   
   depends_on "git"
 
